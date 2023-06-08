@@ -1,0 +1,29 @@
+{
+    "expert": "yes",
+    "cli": false,
+    "adapterName": "simple-vis-widgets",
+    "title": "simple-vis-widgets",
+    "description": "",
+    "keywords": [
+        "vis"
+    ],
+    "contributors": "",
+    "authorName": "ThunderLe0",
+    "authorGithub": "ThunderLe0",
+    "authorEmail": "leisenp@gmail.com",
+    "features": [
+        "vis"
+    ],
+    "adminFeatures": [],
+    "type": "visualization-widgets",
+    "startMode": "daemon",
+    "connectionType": "",
+    "dataSource": "",
+    "connectionIndicator": "no",
+    "releaseScript": "yes",
+    "gitRemoteProtocol": "SSH",
+    "license": "MIT License",
+    "dependabot": "yes",
+    "target": "github",
+    "creatorVersion": "2.3.0"
+}

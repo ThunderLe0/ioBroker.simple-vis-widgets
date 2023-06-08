@@ -1,0 +1,77 @@
+{
+    "common": {
+        "name": "simple-vis-widgets",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "simple-vis-widgets",
+        "titleLang": {
+            "en": "simple-vis-widgets",
+            "de": "simple-vis-widgets",
+            "ru": "simple-vis-widgets",
+            "pt": "simple-vis-widgets",
+            "nl": "simple-vis-widgets",
+            "fr": "simple-vis-widgets",
+            "it": "simple-vis-widgets",
+            "es": "simple-vis-widgets",
+            "pl": "simple-vis-widgets",
+            "zh-cn": "simple-vis-widgets"
+        },
+        "desc": {
+            "en": "simple-vis-widgets",
+            "de": "simple-vis-widgets",
+            "ru": "simple-vis-widgets",
+            "pt": "simple-vis-widgets",
+            "nl": "simple-vis-widgets",
+            "fr": "simple-vis-widgets",
+            "it": "simple-vis-widgets",
+            "es": "simple-vis-widgets",
+            "pl": "simple-vis-widgets",
+            "zh-cn": "simple-vis-widgets"
+        },
+        "authors": [
+            "ThunderLe0 <leisenp@gmail.com>"
+        ],
+        "keywords": [
+            "vis"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "simple-vis-widgets.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ThunderLe0/ioBroker.simple-vis-widgets/main/admin/simple-vis-widgets.png",
+        "readme": "https://github.com/ThunderLe0/ioBroker.simple-vis-widgets/blob/main/README.md",
+        "loglevel": "info",
+        "restartAdapters": [
+            "vis"
+        ],
+        "onlyWWW": true,
+        "noConfig": true,
+        "singleton": true,
+        "type": "visualization-widgets",
+        "mode": "once",
+        "dependencies": [
+            "vis"
+        ],
+        "globalDependencies": []
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
