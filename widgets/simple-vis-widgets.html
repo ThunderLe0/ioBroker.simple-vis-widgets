@@ -103,14 +103,14 @@
         type="text/ejs"
         class="vis-tpl"
         data-vis-prev='<div id="prev_tplSimple-vis-widgetsShowInstance" style="position: relative; text-align: initial;padding: 4px "><div class="vis-widget_prev " style="width: 280px; height: 159px;" > <div class="simple-vis-widgets-class vis-widget-prev-body " style="padding:2px"> OID: hm-rpc.0.EEQ0006629.1.STATE<br> OID value: true<br> Color: <span style="color: rgb(128, 0, 0);">#800000</span><br> htmlText: <textarea readonly="" style="width:100%">asda</textarea></div>'
-        data-vis-attrs="Titel/text;Text-color/color;Titel-background/color;body/text;"
+        data-vis-attrs="Titel/text;Text-color/color;background/color;body/text;"
         data-vis-set="simple-vis-widgets"
         data-vis-type="basic"
         data-vis-name="Rahmen">
-    <div class="vis-widget <%== this.data.attr('class') %>" style="width:230px; height:210px;" id="<%= this.data.attr('wid') %>" >
-        <div class="simple-vis-widgets-class vis-widget-body <%== this.data.attr('class') %>" style="padding:2px" >
-            <div style="color:<%== this.data('Text-color') %>;background-color:<%== this.data('Titel-background') %>"><%= this.data.attr('Titel') %></div>
-            <div><%= this.data.attr('body') %></div>
+    <div>
+        <div style="padding:2px" >
+            <div style="color:<%== this.data('Text-color') %>;background-color:<%== this.data('background') %>"><%== this.data.attr("Titel") %></div>
+            <div><%== this.data.attr('body') %></div>
         </div>
     </div>
 </script>
